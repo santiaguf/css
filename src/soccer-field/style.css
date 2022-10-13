@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+width: 100%;
+background-color: #908e8e;
+}
+
+img {
+float: right;
+width: 47em;
+}
+
+#field {
+width: 85%;
+height: 350px;
+padding: 10px;
+background-color: #8cb27c;
+float: left;
+}
+
+#limits {
+height: 95%;
+border: solid 4px white;
+margin: 3px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#left-area {
+border-left: transparent;
+}
+
+#right-area {
+border-right: transparent;
+}
+
+#ball-1 {
+right: -4.3em;
+}
+
+#ball-2 {
+left: 5em;
+top: -3em;
+}
+
+#ball-3 {
+left: -1.5em;
+top: 8em;
+}
+
+.area {
+width: 10%;
+height: 45%;
+}
+
+.circle {
+width: 150px;
+height: 150px;
+border-radius: 100px;
+}
+
+.soccer {
+border: solid 4px white;
+}
+
+.ball {
+position: relative;
+width: 1em;
+height: 1em;
+background-color: white;
+border-radius: 50em;
+}
