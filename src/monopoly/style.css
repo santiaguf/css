@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+padding: 1em;
+}
+
+p {
+padding-bottom: 2em;
+text-align: justify;
+}
+
+#container {
+width: 45em;
+border: solid 1px black;
+}
+
+#header {
+border: solid 1px black;
+}
+
+#content {
+display: flex;
+}
+
+#footer {
+border: solid 1px black;
+}
+
+.yellow {
+text-align: center;
+background-color: #ffc107;
+}
+
+.card {
+padding: 2em;
+text-align: center;
+width: 33%;
+border: solid 0.5px gray;
+}
+
+.photo {
+width: 100%;
+}
