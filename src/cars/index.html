@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>carros en venta</title>
+</head>
+<body>
+    <label for="vehiculo">Ingrese marca Vehículo</label>
+    <input type="text" name="vehiculo" id="vehiculo" />
+    <input type="button" name="agregar" id="agregar" value="Añadir" />
+    <input
+        type="button"
+        name="agregar"
+        id="borrar-primero"
+        value="Borrar primero"
+    />
+    <input
+        type="button"
+        name="agregar"
+        id="borrar-ultimo"
+        value="Borrar último"
+    />
+
+    <p>Lista de vehículos</p>
+    <div id="listado"></div>
+
+    <script type="text/javascript">
+        let coleccion = [];
+        const btnAgregar = document.getElementById("agregar");
+        btnAgregar.addEventListener("click", function () {
+        let vehiculo = document.getElementById("vehiculo").value;
+        coleccion.push(vehiculo);
+
+        const listado = document.getElementById("listado");
+        listado.textContent = coleccion;
+        console.log(coleccion);
+        });
+
+        const btnBorrarPrimero = document.getElementById("borrar-primero");
+        btnBorrarPrimero.addEventListener("click", function () {
+        coleccion.shift();
+        listado.textContent = coleccion;
+        });
+        const btnBorrarUltimo = document.getElementById("borrar-ultimo");
+        btnBorrarUltimo.addEventListener("click", function () {
+        coleccion.pop();
+        listado.textContent = coleccion;
+        });
+    </script>
+</body>
+</html>
