@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: -3em;
+    text-align: right;
+    margin-right: 1.5em;
+}
+
+img{
+    padding: 1em;
+}
+
+#coders {
+    width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
