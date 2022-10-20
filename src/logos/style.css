@@ -1,8 +1,41 @@
 * {
     padding: 0%;
     margin: 0%;
+    color: #909090;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    text-align: justify;
 }
 
 #container {
 display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.logos {
+    margin: 1em;
+    font-size: 2em;
 }
