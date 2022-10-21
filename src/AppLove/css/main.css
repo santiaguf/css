@@ -71,3 +71,15 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+#first {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white {
+  color: white;
+}
