@@ -84,8 +84,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: center;
+  padding: 1.5em;
+}
+
+h5 {
+  margin: 2em auto auto auto;
+}
+
+h6 {
+  margin: 0em;
 }
 
 #first {
@@ -95,6 +104,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  text-transform: uppercase;
 }
 
 #description {
@@ -102,13 +113,45 @@ h2 {
   text-align: center;
 }
 
+#services-link-container {
+  padding: 5em 0em;
+  text-align: center;
+}
+
 #services-link {
   background-color: #2ecc71;
-  padding: 0.6em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   text-align: center;
   align-content: center;
+  position: relative;
+  justify-content: center;
+
+}
+
+#second {
+  background-color: #f17c72;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#services-description {
+  text-align: center;
+  padding: 1em;
+}
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0em;
 }
 
 .white {
   color: white;
+}
+
+.services-img  {
+  width: 10em;
 }
