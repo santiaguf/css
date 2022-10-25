@@ -142,10 +142,20 @@ h6 {
   padding: 1em;
 }
 
+#work-description {
+  text-align: center;
+  padding: 1em;
+}
+
 #services {
   display: flex;
   justify-content: space-between;
   margin: 3em 0em;
+}
+
+#hero-img {
+  width: 100%;
+  padding: 1em 8em;
 }
 
 .white {
