@@ -36,6 +36,11 @@ footer{
   justify-content: center;
 }
 
+header {
+  background-color: white;
+  position: sticky;top: 0;
+}
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -103,6 +108,21 @@ h5 {
 
 h6 {
   margin: 0em;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+#logo {
+  width: 100px;
+}
+
+#logo-img {
+  width: 100%;
 }
 
 #first {
