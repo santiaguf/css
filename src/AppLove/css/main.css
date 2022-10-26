@@ -28,6 +28,14 @@ img {
   vertical-align: middle;
 }
 
+footer{
+  background-color: #373b47;
+  padding: 0.5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   width: 1200px;
   margin-right: auto;
