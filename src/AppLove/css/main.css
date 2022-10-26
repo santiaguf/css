@@ -158,10 +158,22 @@ h6 {
   padding: 1em 8em;
 }
 
+#works-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em 3em;
+  justify-content: center;
+}
+
 .white {
   color: white;
 }
 
 .services-img  {
   width: 10em;
+}
+
+.works {
+  width: 20em;
+  padding: 2em;
 }
