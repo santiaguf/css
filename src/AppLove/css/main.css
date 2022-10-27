@@ -38,7 +38,11 @@ footer{
 
 header {
   background-color: white;
-  position: sticky;top: 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 5em;
 }
 
 .container {
@@ -112,13 +116,13 @@ h6 {
 
 #menu {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding: 1em;
+  padding: 1em 0em 1em 3em;
 }
 
 #logo {
   width: 100px;
+  padding: 1em;
 }
 
 #logo-img {
@@ -151,7 +155,6 @@ h6 {
   color: white;
   padding: 1em;
   text-align: center;
-  position: relative;
 }
 
 #second {
@@ -201,4 +204,8 @@ h6 {
 .works {
   width: 20em;
   padding: 2em;
+}
+
+.menu-link {
+  padding: 0em 1em;
 }
